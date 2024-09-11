@@ -1,0 +1,301 @@
+/* Color Variables */
+:root {
+    --surface-primary: #ffffff;
+    --surface-primary-inverse: #000000;
+    --surface-secondary: #fafafa;
+  
+    --primary-blue-1: #228be6;
+    --primary-blue-2: #bcdffb;
+  
+    --secondary-yellow-1: #feb92b;
+    --secondary-yellow-2: #ffeeb8;
+  
+    --text-primary: #212121;
+    --text-primary-inverse: #ffffff;
+    --text-secondary: #767676;
+
+    --accent-brown-1: #684141;
+    --accent-brown-2: #f9ecec;
+    --accent-orange-1: #ff9357;
+    --accent-orange-2: #fff1e9;
+    --accent-pink-1: #e62371;
+    --accent-pink-2: #ffecf3;
+    --accent-purple-1: #65558f;
+    --accent-purple-2: #f3efff;
+    --accent-teal-1: #10ac84;
+    --accent-teal-2: #eefffb;
+    --accent-turquoise-1: #4298b4;
+    --accent-turquoise-2: #ecfaff;
+  
+    --indicator-awareness: #feb92b;
+    --indicator-negative: #cd2523;
+    --indicator-positive: #009f5c;
+  
+    --button-surface-primary: #228be6;
+    --button-surface-secondary: #fc791d;
+    --button-text-primary: #212121;
+    --button-text-secondary: #9f9f9f;
+  }
+  
+  /* Mobile Spacing */
+  @media (max-width: 600px) {
+    :root {
+      --spacing-none: 0px;
+      --spacing-margin-horizontal: 24px;
+      --spacing-gutter: 16px;
+      --spacing-padding-xxs-vertical: 4px;
+      --spacing-padding-xxs-horizontal: 4px;
+      --spacing-padding-xs-vertical: 8px;
+      --spacing-padding-xs-horizontal: 8px;
+      --spacing-padding-sm-vertical: 16px;
+      --spacing-padding-sm-horizontal: 12px;
+      --spacing-padding-md-vertical: 24px;
+      --spacing-padding-md-horizontal: 16px;
+      --spacing-padding-lg-vertical: 48px;
+      --spacing-padding-lg-horizontal: 24px;
+      --spacing-padding-xl-vertical: 64px;
+      --spacing-padding-xl-horizontal: 32px;
+      --spacing-padding-xxl-vertical: 96px;
+      --spacing-padding-xxl-horizontal: 40px;
+    }
+  }
+  
+  /* Tablet Spacing */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    :root {
+      --spacing-none: 0px;
+      --spacing-margin-horizontal: 32px;
+      --spacing-gutter: 20px;
+      --spacing-padding-xxs-vertical: 4px;
+      --spacing-padding-xxs-horizontal: 4px;
+      --spacing-padding-xs-vertical: 8px;
+      --spacing-padding-xs-horizontal: 8px;
+      --spacing-padding-sm-vertical: 16px;
+      --spacing-padding-sm-horizontal: 12px;
+      --spacing-padding-md-vertical: 24px;
+      --spacing-padding-md-horizontal: 16px;
+      --spacing-padding-lg-vertical: 48px;
+      --spacing-padding-lg-horizontal: 24px;
+      --spacing-padding-xl-vertical: 64px;
+      --spacing-padding-xl-horizontal: 32px;
+      --spacing-padding-xxl-vertical: 96px;
+      --spacing-padding-xxl-horizontal: 40px;
+    }
+  }
+  
+  /* Desktop Spacing */
+  @media (min-width: 1025px) {
+    :root {
+      --spacing-none: 0px;
+      --spacing-margin-horizontal: 150px;
+      --spacing-gutter: 20px;
+      --spacing-padding-xxs-vertical: 8px;
+      --spacing-padding-xxs-horizontal: 8px;
+      --spacing-padding-xs-vertical: 16px;
+      --spacing-padding-xs-horizontal: 16px;
+      --spacing-padding-sm-vertical: 24px;
+      --spacing-padding-sm-horizontal: 20px;
+      --spacing-padding-md-vertical: 48px;
+      --spacing-padding-md-horizontal: 32px;
+      --spacing-padding-lg-vertical: 64px;
+      --spacing-padding-lg-horizontal: 40px;
+      --spacing-padding-xl-vertical: 96px;
+      --spacing-padding-xl-horizontal: 48px;
+      --spacing-padding-xxl-vertical: 128px;
+      --spacing-padding-xxl-horizontal: 64px;
+    }
+  }
+  
+  /* Base Typography */
+:root {
+    --font-family: 'Nunito', sans-serif;
+  
+    --font-size-h1: 32px;
+    --font-weight-h1: 700;
+    --line-height-h1: 40px;
+  
+    --font-size-h2: 28px;
+    --font-weight-h2: 700;
+    --line-height-h2: 36px;
+  
+    --font-size-h3: 24px;
+    --font-weight-h3: 700;
+    --line-height-h3: 32px;
+  
+    --font-size-h4: 20px;
+    --font-weight-h4: 700;
+    --line-height-h4: 28px;
+  
+    --font-size-subtitle-lg: 16px;
+    --font-weight-subtitle-lg: 400;
+    --line-height-subtitle-lg: 24px;
+  
+    --font-size-subtitle-md: 14px;
+    --font-weight-subtitle-md: 400;
+    --line-height-subtitle-md: 22px;
+  
+    --font-size-subtitle-sm: 12px;
+    --font-weight-subtitle-sm: 400;
+    --line-height-subtitle-sm: 20px;
+  
+    --font-size-body-lg: 16px;
+    --font-weight-body-lg: 400;
+    --line-height-body-lg: 24px;
+  
+    --font-size-body-md: 14px;
+    --font-weight-body-md: 400;
+    --line-height-body-md: 22px;
+  
+    --font-size-body-sm: 12px;
+    --font-weight-body-sm: 400;
+    --line-height-body-sm: 20px;
+  
+    --font-size-alt-text: 10px;
+    --font-weight-alt-text: 400;
+    --line-height-alt-text: 18px;
+  }
+  
+  /* Mobile Typography */
+  @media (max-width: 600px) {
+    :root {
+      --font-size-h1: 24px;
+      --font-size-h2: 20px;
+      --font-size-h3: 18px;
+      --font-size-h4: 16px;
+      --font-size-subtitle-lg: 14px;
+      --font-size-subtitle-md: 12px;
+      --font-size-subtitle-sm: 10px;
+      --font-size-body-lg: 14px;
+      --font-size-body-md: 12px;
+      --font-size-body-sm: 10px;
+      --font-size-alt-text: 8px;
+    }
+  }
+  
+  /* Tablet Typography */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    :root {
+      --font-size-h1: 28px;
+      --font-size-h2: 24px;
+      --font-size-h3: 20px;
+      --font-size-h4: 18px;
+      --font-size-subtitle-lg: 16px;
+      --font-size-subtitle-md: 14px;
+      --font-size-subtitle-sm: 12px;
+      --font-size-body-lg: 16px;
+      --font-size-body-md: 14px;
+      --font-size-body-sm: 12px;
+      --font-size-alt-text: 10px;
+    }
+  }
+  
+  /* Desktop Typography */
+  @media (min-width: 1025px) {
+    :root {
+      --font-size-h1: 32px;
+      --font-size-h2: 28px;
+      --font-size-h3: 24px;
+      --font-size-h4: 20px;
+      --font-size-subtitle-lg: 16px;
+      --font-size-subtitle-md: 14px;
+      --font-size-subtitle-sm: 12px;
+      --font-size-body-lg: 16px;
+      --font-size-body-md: 14px;
+      --font-size-body-sm: 12px;
+      --font-size-alt-text: 10px;
+    }
+  }
+  
+  /* Apply Typography */
+  body {
+    font-family: var(--font-family);
+    color: var(--text-primary);
+    margin: var(--spacing-none);
+  }
+  
+  h1 {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    line-height: var(--line-height-h1);
+  }
+  
+  h2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    line-height: var(--line-height-h2);
+  }
+  
+  h3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+    line-height: var(--line-height-h3);
+  }
+  
+  h4 {
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    line-height: var(--line-height-h4);
+  }
+  
+  .subtitle-lg {
+    font-size: var(--font-size-subtitle-lg);
+    font-weight: var(--font-weight-subtitle-lg);
+    line-height: var(--line-height-subtitle-lg);
+  }
+  
+  .subtitle-md {
+    font-size: var(--font-size-subtitle-md);
+    font-weight: var(--font-weight-subtitle-md);
+    line-height: var(--line-height-subtitle-md);
+  }
+  
+  .subtitle-sm {
+    font-size: var(--font-size-subtitle-sm);
+    font-weight: var(--font-weight-subtitle-sm);
+    line-height: var(--line-height-subtitle-sm);
+  }
+  
+  .body-lg {
+    font-size: var(--font-size-body-lg);
+    font-weight: var(--font-weight-body-lg);
+    line-height: var(--line-height-body-lg);
+  }
+  
+  .body-md {
+    font-size: var(--font-size-body-md);
+    font-weight: var(--font-weight-body-md);
+    line-height: var(--line-height-body-md);
+  }
+  
+  .body-sm {
+    font-size: var(--font-size-body-sm);
+    font-weight: var(--font-weight-body-sm);
+    line-height: var(--line-height-body-sm);
+  }
+  
+  .alt-text {
+    font-size: var(--font-size-alt-text);
+    font-weight: var(--font-weight-alt-text);
+    line-height: var(--line-height-alt-text);
+  }
+
+  /* Button Styles */
+  .button-primary {
+    background-color: var(--button-surface-primary);
+    color: var(--button-text-primary);
+  }
+  
+  .button-secondary {
+    background-color: var(--button-surface-secondary);
+    color: var(--button-text-secondary);
+  }
+  
+  /* Example of spacing usage */
+  .container {
+    padding: var(--spacing-padding-md-vertical) var(--spacing-padding-md-horizontal);
+  }
+  
+  .margin-horizontal {
+    margin-left: var(--spacing-margin-horizontal);
+    margin-right: var(--spacing-margin-horizontal);
+  }
